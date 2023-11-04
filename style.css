@@ -1,0 +1,200 @@
+.tophead{
+    display:flex;
+    align-items:center;
+    font-size: 20px;
+    border:1px solid rgba(0, 0, 0, 0);
+}
+.tophead div {
+    display: flex;
+    align-items: center;
+  }
+  .tophead div:not(:last-child) {
+    margin-right: 50px;
+  }
+  .email{
+    margin-left: 600px;
+  }
+  .navigation{
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+    border:2px solid white;
+    background-color: rgba(135, 207, 235, 0.4);
+    padding: 10px;
+    color: white;
+  }
+  .navigation a:active {
+    color:white; 
+  }
+  .navigation a:hover {
+    color:white; 
+  }
+  .links{
+    margin-left: 200px;
+    font-size: 22px;
+  }
+  .navigation img{
+    margin-left: 20px;
+  }
+  .links a{
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  .scroll{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(7, 54, 103, 0.772);
+    background-color: azure;
+  }
+  .mainbody {
+    background-color:rgba(135, 200, 235, 0.189);
+  }
+  .mainbody article{
+    width:60%;
+  }
+  .mainbody aside{
+    margin-left: 60%;
+    margin-top:-300px;
+    margin-bottom: 100px;
+
+  }
+  .text h1{
+    font-size: 40px;
+  }
+    .text p {
+    font-size: 20px; 
+  }
+
+  .text button {
+    font-size: 20px; 
+    padding: 5px;
+    margin-top: 50px;
+    color:white;
+    background-color: black;
+    margin-bottom: 50px;
+  }
+  .addon{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: -100px;
+    background-color: aliceblue;
+  }
+  .addon span{
+    margin-left:50px ;
+  }
+  .cs{
+    display: flex;
+    background-color: #f0f0f0;
+  }
+  .course{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+  }
+  .cs pre{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .head {
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+    background-color:cornflowerblue;
+    padding-bottom: 10px;
+    border:3px solid cornflowerblue;
+  }
+  .cs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cs .cs1, .cs .cs2 {
+    width: 45%;
+    text-align: center;
+}
+
+.cs .cs1 h1, .cs .cs2 h1 {
+    color: #007BFF;
+}
+
+.cs .cs1 p, .cs .cs2 p {
+    color: #6c757d;
+}
+
+.cs .cs1 a, .cs .cs2 a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    animation: colorchange 2s infinite;
+}
+
+p {
+    text-align: justify;
+    color: #666;
+}
+
+table {
+    width: 100%;
+    animation: slidein 2s;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    border:1px solid #ccc;
+    background: #ccc;
+    color: #000;
+    animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+    0%   {text-indent: 100%;}
+    100% {text-indent: -100%;}
+}
+
+@keyframes colorchange {
+    0%   {color:green;}
+    25%  {color:black;}
+    50%  {color:green}
+    100% {color: black;}
+}
+
+@keyframes slidein {
+    from {margin-left: 100%;}
+    to   {margin-left: 0%;}
+}
+</style>
+
+
+    
+
+  
